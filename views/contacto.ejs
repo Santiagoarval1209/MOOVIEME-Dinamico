@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - MOOVIEME</title>
+    <link rel="stylesheet" href="/stylesheets/contacto.css" />
+</head>
+
+<!--Inicio del cuerpo de Contacto-->
+<body>
+    <!--Cabecera-->
+    <header>
+        <div class="logo">MOOVIEME</div>
+        <nav>
+            <ul>
+                <li><a href="/inicio">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenedor de preguntas (faq-item =(pregunta y respuesta))-->
+    <div class="contact-container">
+        <div class="faq-section">
+            <h3>Preguntas Frecuentes</h3>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Cómo funciona MOOVIEME?</button>
+                <div class="faq-answer">
+                    <p>MOOVIEME es una plataforma donde puedes almacenar, organizar y gestionar tus películas favoritas.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Puedo editar mi colección de películas?</button>
+                <div class="faq-answer">
+                    <p>Sí, puedes añadir, editar o eliminar películas de tu colección en cualquier momento.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Cómo puedo contactar con el soporte técnico?</button>
+                <div class="faq-answer">
+                    <p>Puedes contactar con el soporte técnico usando el formulario que se encuentra en esta página.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Es gratuito usar MOOVIEME?</button>
+                <div class="faq-answer">
+                    <p>Sí, MOOVIEME es completamente gratuito. No tienes que pagar para almacenar y gestionar tu colección de películas.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Puedo compartir mi colección con amigos?</button>
+                <div class="faq-answer">
+                    <p>En este momento, MOOVIEME no permite compartir colecciones directamente, pero estamos trabajando en esta funcionalidad.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Cómo restauro una película eliminada por error?</button>
+                <div class="faq-answer">
+                    <p>Por el momento, no es posible restaurar películas eliminadas. Te recomendamos tener cuidado al eliminar títulos de tu colección.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Cómo puedo cambiar mi dirección de correo electrónico?</button>
+                <div class="faq-answer">
+                    <p>Puedes cambiar tu dirección de correo desde la sección de "Perfil" en tu cuenta de MOOVIEME.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Form de contacto-->
+        <div class="contact-form">
+            <h3>Contacta con nosotros</h3>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required />
+                </div>
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Asunto de tu mensaje" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="send-btn">Enviar mensaje</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; MOOVIEME. Santiago Arguello Valero.</p>
+    </footer>
+
+    <script src="/javascripts/contacto.js"></script>
+</body>
+</html>

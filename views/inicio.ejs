@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOOVIEME - Inicio</title>
+    <link rel="stylesheet" href="/stylesheets/inicio.css" />
+</head>
+<body>
+    <!--Cabecera -->
+    <header>
+        <div class="logo">MOOVIEME</div>
+        <nav>
+            <ul>
+                <li><a href="/inicio">Inicio</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+                <li><a href="/auth/login" class="btn-cta">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seccion hero = (Video background, pequeña descripcion y boton Registrar) -->
+    <section class="hero">
+        <video autoplay muted loop id="background-video">
+            <source src="/images/video.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+        <div class="hero-content">
+            <h1>MOOVIEME organiza y guarda tus películas favoritas</h1>
+            <p>¡Nunca ha sido tan fácil ser un cinéfilo!</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary">Empezar ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion extra (Breve explicacion de lo que es Moovieme) -->
+    <section class="extra-section">
+        <h2>¿Qué es MOOVIEME?</h2>
+        <p>MOOVIEME es una plataforma diseñada para los amantes del cine que quieren organizar, guardar y seguir su progreso en sus películas favoritas.</p>
+        <p>Con nuestra herramienta, puedes añadir películas a tu colección, calificar las que has visto y descubrir nuevas películas para disfrutar.</p>
+    </section>
+
+    <!-- Nueva Sección = (Agregados recientemente fotos y informacion de moovime) -->
+    <section class="new-section">
+        <h2 class="carousel-title">Añadido recientemente</h2>
+
+        <div class="carousel" id="carousel">
+            <img src="/images/gladiador.png" alt="Póster película 1" />
+            <img src="/images/garfield.jpg" alt="Póster película 2" />
+            <img src="/images/vaiana.jpg" alt="Póster película 3" />
+            <img src="/images/saw.jpg" alt="Póster película 3" />
+            <img src="/images/dune.jpg" alt="Póster película 3" />
+            <img src="/images/five.jpg" alt="Póster película 3" />
+            <img src="/images/misterio.jpg" alt="Póster película 3" />
+            <img src="/images/mega.jpg" alt="Póster película 3" />
+            <img src="/images/suzume.jpg" alt="Póster película 3" />
+        </div>
+
+        <div class="info-section">
+            <h3>Fácil de usar</h3>
+            <p>Organiza tu colección de películas con unos pocos clics. Una interfaz intuitiva que cualquier cinéfilo adorará.</p>
+
+            <h3>Sigue tu progreso</h3>
+            <p>¿Viendo una serie larga o descubriendo películas clásicas? Lleva un registro de todo lo que ves.</p>
+
+            <h3>Soporte técnico de excelente calidad</h3>
+            <p>¿Tienes dudas o problemas? Nuestro equipo está aquí para ayudarte en cualquier momento.</p>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; MOOVIEME. Santiago Arguello Valero.</p>
+    </footer>
+
+    <script src="/javascripts/carrucel.js"></script>
+</body>
+</html>

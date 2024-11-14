@@ -1,0 +1,154 @@
+[
+    {
+        "username": "usuario1@gmail.com",
+        "password": "123",
+        "copies": [
+            {
+                "id_movie": 1,
+                "status": "fine",
+                "format": "DVD"
+            },
+            {
+                "id_movie": 2,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 3,
+                "status": "fine",
+                "format": "Digital"
+            },
+            {
+                "id_movie": 4,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 5,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 6,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 7,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 8,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 9,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 10,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 11,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 12,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 13,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 14,
+                "status": "damaged",
+                "format": "Blu-Ray"
+            }
+        ]
+    },
+    {
+        "username": "usuario2@gmail.com",
+        "password": "123",
+        "copies": [
+            {
+                "id_movie": 15,
+                "status": "fine",
+                "format": "DVD"
+            },
+            {
+                "id_movie": 16,
+                "status": "lost",
+                "format": "VHS"
+            },
+            {
+                "id_movie": 17,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 18,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 19,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 20,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 21,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 22,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 23,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 24,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 25,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 26,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 27,
+                "status": "fine",
+                "format": "Blu-Ray"
+            },
+            {
+                "id_movie": 28,
+                "status": "fine",
+                "format": "Blu-Ray"
+            }
+        ]
+    }
+]

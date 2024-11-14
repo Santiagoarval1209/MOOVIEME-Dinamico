@@ -1,0 +1,144 @@
+[
+    {
+        "id": 1,
+        "title": "Avengers Infinite War",
+        "image": "/images/Avengers.png"
+    },
+    {
+        "id": 2,
+        "title": "X-Men Dias Futuro Pasado",
+        "image": "/images/xmen.png"
+    },
+    {
+        "id": 3,
+        "title": "Thor 2",
+        "image": "/images/thor.png"
+    },
+    {
+        "id": 4,
+        "title": "Civil War",
+        "image": "/images/civil.png"
+    },
+    {
+        "id": 5,
+        "title": "Batman The Dark Nigth",
+        "image": "/images/batman.png"
+    },
+    {
+        "id": 6,
+        "title": "Justice League",
+        "image": "/images/liga.png"
+    },
+    {
+        "id": 7,
+        "title": "Joker",
+        "image": "/images/joker.png"
+    },
+    {
+        "id": 8,
+        "title": "Suicide squad",
+        "image": "/images/squad.png"
+    },
+    {
+        "id": 9,
+        "title": "Spidereman 2",
+        "image": "/images/spiderman2.png"
+    },
+    {
+        "id": 10,
+        "title": "Hulk",
+        "image": "/images/hulk.png"
+    },
+    {
+        "id": 11,
+        "title": "Deadpool 2",
+        "image": "/images/deadpool.png"
+    },
+    {
+        "id": 12,
+        "title": "Logan",
+        "image": "/images/logan.png"
+    },
+    {
+        "id": 13,
+        "title": "Watchmen",
+        "image": "/images/watch.png"
+    },
+    {
+        "id": 14,
+        "title": "Spiderman Across the spiderverse",
+        "image": "/images/spidermanacross.png"
+    },
+    {
+        "id": 15,
+        "title": "Garfield",
+        "image": "/images/garfield.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Gladiator 2",
+        "image": "/images/gladiador.png"
+    },
+    {
+        "id": 17,
+        "title": "Moana",
+        "image": "/images/vaiana.jpg"
+    },
+    {
+        "id": 18,
+        "title": "SAW X",
+        "image": "/images/saw.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Dune",
+        "image": "/images/dune.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Megalodon 2",
+        "image": "/images/mega.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Misterio en venecia",
+        "image": "/images/misterio.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Smile",
+        "image": "/images/smile.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Suzume",
+        "image": "/images/suzume.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Five Nigths at Freddys",
+        "image": "/images/five.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Los increibles 2",
+        "image": "/images/increibles.png"
+    },
+    {
+        "id": 26,
+        "title": "El rey leon",
+        "image": "/images/leon.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Back to the future",
+        "image": "/images/back.png"
+    },
+    {
+        "id": 28,
+        "title": "Blade Runner 2049",
+        "image": "/images/blade.png"
+    }
+    
+    
+]

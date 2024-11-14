@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOVIEME</title>
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+<body>
+
+    <!--Cabecera home =(Logo, boton inicio, contacto y cerrar sesion)-->
+    <header>
+        <div class="logo">MOOVIEME</div>
+        <nav>
+            <ul>
+                <li><a href="/home">Mi colección</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+                <li><a href="/auth/login">Cerrar sesión</a></li>
+                <li>
+                    <div class="profile-pic">
+                        <img src="/images/perfil.jpg" alt="Perfil de usuario">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenedor = (Botones (Editar, Agregar, Eliminar y filtrar. Barra de búsqueda, aside y películas))-->
+    <div class="container">
+        <main class="content">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar película..." class="search-input">
+                <button class="btn">Editar</button>
+                <button class="btn">Agregar</button>
+                <button class="btn">Eliminar</button>
+                <button class="btn filter-btn" id="filterBtn">Filtrar</button>
+            </div>
+            
+            <!--Filtros-->
+            <aside class="filters-offcanvas" id="filtersOffcanvas">
+                <div class="filters-header">
+                    <h2>Filtros</h2>
+                    <button class="close-btn" id="closeBtn">&times;</button>
+                </div>
+                <div class="filters">
+                    <h3>Géneros</h3>
+                    <label><input type="checkbox"> Acción</label><br>
+                    <label><input type="checkbox"> Comedia</label><br>
+                    <label><input type="checkbox"> Ficción</label><br>
+                    <label><input type="checkbox"> Terror</label><br>
+                    <label><input type="checkbox"> Drama</label><br>
+                    <label><input type="checkbox"> Animada</label><br>
+                    <label><input type="checkbox"> Suspenso</label><br>
+                    
+                    <h3>Años</h3>
+                    <input type="range" min="1900" max="2024" value="2024"><br>
+                    
+                    <h3>Estado</h3>
+                    <label><input type="checkbox" checked> ⭐⭐⭐⭐⭐</label><br>
+                    <label><input type="checkbox"> ⭐⭐⭐⭐</label><br>
+                    <label><input type="checkbox"> ⭐⭐⭐</label><br>
+                    <label><input type="checkbox"> ⭐⭐</label><br>
+                    <label><input type="checkbox"> ⭐</label><br>
+                    
+                    <h3>Formato</h3>
+                    <label><input type="checkbox"> DVD</label><br>
+                    <label><input type="checkbox"> Blu-ray</label><br>
+                    <label><input type="checkbox"> VHS</label><br>
+                    <label><input type="checkbox"> Digital</label><br>
+                </div>
+            </aside>
+
+            <!--Peliculas (Imagen y titulo)-->
+            <div class="movie-grid" id="movieGrid">
+                <% userMovies.forEach(movie => { %>
+                    <div class="movie-card">
+                        <img src="<%= movie.image %>" alt="<%= movie.title %>">
+                        <p><%= movie.title %></p>
+                    </div>
+                <% }) %>
+            </div>
+        </main>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy; MOOVIEME. Santiago Arguello Valero.</p>
+    </footer>
+
+    <script src="/javascripts/filtrar.js"></script>
+
+</body>
+</html>
